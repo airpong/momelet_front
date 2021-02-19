@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "모믈렛",
+    "slug": "momelet",
+    "version": "2.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.recoder.momelet",
+      "supportsTablet": false,
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["kakaomap"],
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to search restaurants around you.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses the location to search restaurant around you.",
+        "NSLocationAlwaysUsageDescription": "This app uses the location to search restaurant around you",
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to change your profile image in our service"
+      },
+      "buildNumber": "2.0.1"
+    },
+
+    "android": {
+      "package": "com.recoder.momelet",
+      "versionCode": 6
+    },
+
+    "scheme": "momelet"
+  }
+}
